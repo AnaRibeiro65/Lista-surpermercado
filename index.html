@@ -1,0 +1,30 @@
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stayle.css">
+    <title>Lista de mercado</title>
+</head>
+<body>
+    <header>
+        <h1>App Lista de SuperMercado</h1>
+    </header>
+    <main>
+        <div class="lista-cadastro">
+            <input type="text" placeholder="nome do produto..." name="nome_produto"/>
+            <input type="number" placeholder="valor do produto" name="numero" step="0.01"/>
+            <input type="submit" name="acao" value="Cadastrar" class="cadastro"/>
+        </div>
+
+        <div class="lista-produtos"></div>
+
+        <div class="soma-produto">
+            <h2>Total:R$00</h2>
+        </div>
+
+        <button class="limpar">Limpar</button>
+    </main>
+    <script src="./suprmercado.js"></script>
+</body>
+</html>
